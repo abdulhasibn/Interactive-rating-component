@@ -1,14 +1,114 @@
 *,
 *::before,
-*::after{
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
-.attribution { 
-    font-size: 11px; 
-    text-align: center; 
+
+:root {
+  --bg_color: hsl(216, 12%, 8%);
+  --state_color: hsl(213, 19%, 18%);
+  --heading: white;
+  --para: hsl(216, 12%, 54%);
+  --btn_shade: hsl(217, 12%, 63%);
+  --btn_bg: hsl(25, 97%, 53%);
 }
-.attribution a { 
-    color: hsl(228, 45%, 44%); 
+li {
+  list-style: none;
+}
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  margin-top: 6em;
+  color: white;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+body {
+  background-color: var(--bg_color);
+  font-family: "Overpass", sans-serif;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.rating_state {
+  width: 400px;
+  height: 400px;
+  background-color: var(--state_color);
+  color: var(--para);
+  padding: 2em 2em 2em 2em;
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+  border-radius: 20px;
+  box-sizing: content-box;
+}
+.number_con {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 1em;
+  margin: 2em 0;
+}
+.clicked_state {
+  width: 50px;
+  height: 50px;
+  background-color: var(--btn_shade);
+  color: white;
+  border-radius: 50%;
+  padding: 0.5em;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.normal {
+  width: 50px;
+  height: 50px;
+  background-color: rgba(255, 255, 255, 0.12);
+  color: var(--btn_shade);
+  border-radius: 50%;
+  padding: 0.5em;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.normal:hover {
+  cursor: pointer;
+  background-color: var(--btn_bg);
+  color: white;
+}
+
+h1 {
+  color: var(--heading);
+}
+.thank_you_state {
+  display: none;
+}
+.submit_btn {
+  font-size: 0.9rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  background-color: var(--btn_bg);
+  color: white;
+  letter-spacing: 0.2em;
+  border: 0;
+  padding: 1em 2em;
+  border-radius: 20px;
+  cursor: pointer;
+}
+.submit_btn:hover {
+  background-color: white;
+  color: var(--btn_bg);
+}
+.star {
+  background-color: rgba(255, 255, 255, 0.12);
+  border-radius: 50%;
+  padding: 1em;
+  margin-bottom: 1.2em;
 }

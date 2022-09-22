@@ -18,15 +18,17 @@ The page consists of a rating component that accepts input from user and display
 ### Screenshot
 
 Rating page in Desktop
+
 ![](./images/rating-state.jpeg)
 
 Thank you page in Desktop
+
 ![](./images/thank-you-state.jpeg)
 
 ### Links
 
 - Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [] (https://abdulhasibn.github.io/Interactive-rating-component/)
+- Live Site URL: (https://abdulhasibn.github.io/Interactive-rating-component/)
 
 ## My process
 
@@ -53,6 +55,6 @@ Styling the forms in HTML is bit of a hectic task. I have spent quite some time 
 
 ## Author
 
-- Website - [Abdul Hasib N](https://www.your-site.com)
+- Website - [Abdul Hasib N](https://abdulhasibn.github.io/Port-Folio/)
 - Frontend Mentor - [@abdulhasibn](https://www.frontendmentor.io/profile/abdulhasibn)
 - Twitter - [@abdulhasibn](https://www.twitter.com/abdulhasibn)

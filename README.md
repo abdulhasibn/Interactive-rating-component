@@ -27,7 +27,7 @@ Thank you page in Desktop
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: (https://www.frontendmentor.io/solutions/interactive-rating-component-Q11uS2qcb1)
 - Live Site URL: (https://abdulhasibn.github.io/Interactive-rating-component/)
 
 ## My process

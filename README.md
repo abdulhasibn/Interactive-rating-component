@@ -18,10 +18,10 @@ The page consists of a rating component that accepts input from user and display
 ### Screenshot
 
 Rating page in Desktop
-![./images/rating-state.png]()
+![./images/rating-state.jpeg]()
 
 Thank you page in Desktop
-![./images/thank-you-state.png.png]()
+![./images/thank-you-state.png.jpeg]()
 
 ### Links
 

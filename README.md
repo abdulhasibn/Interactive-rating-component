@@ -18,15 +18,15 @@ The page consists of a rating component that accepts input from user and display
 ### Screenshot
 
 Rating page in Desktop
-![](./images/rating-state.png)
+![./images/rating-state.png]()
 
 Thank you page in Desktop
-![](./images/thank-you-state.png.png)
+![./images/thank-you-state.png.png]()
 
 ### Links
 
 - Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [] (https://abdulhasibn.github.io/Interactive-rating-component/)
+- Live Site URL: [https://abdulhasibn.github.io/Interactive-rating-component/] ()
 
 ## My process
 
